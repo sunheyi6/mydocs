@@ -57,7 +57,8 @@ export default defineConfig({
                 { text: '工具操作展示', link: '/agent/operation-thinking' },
                 { text: '流式输出', link: '/agent/streaming' },
                 { text: '流式进度', link: '/agent/progress-thinking' },
-                { text: '调用链', link: '/agent/calltrace-thinking' }
+                { text: '调用链', link: '/agent/calltrace-thinking' },
+                { text: '沙箱', link: '/agent/sandbox-thinking' }
               ]
             },
             {
