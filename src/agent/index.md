@@ -19,15 +19,18 @@ Agent 不是“一问一答”。它更像一个小型执行团队：
 | 文档 | 主要回答的问题 |
 |---|---|
 | [循环](./loop) | Agent 为什么要一轮一轮执行？什么时候继续？ |
+| [长任务不丢注意力](./long-task-thinking) | 任务长于一次运行、甚至长于进程存活时，怎么始终记得目标？ |
 | [提示词](./prompt-thinking) | 怎样把角色、规则和工具纪律说清楚？ |
 | [任务规划](./planning-thinking) | 为什么复杂任务要先拆步骤？ |
 | [完成判断](./completion-thinking) | 为什么模型停了，不代表事情做完了？ |
+| [多 Agent 协作](./multi-agent-thinking) | 怎么让多个 Agent 一起干活，又不让子 Agent 失控？ |
 | [上下文压缩](./context-compression) | 对话太长时，怎样保住任务重点？ |
 | [记忆](./memory-thinking) | 什么内容值得跨会话保存？ |
 | [失败教训](./lessons-thinking) | 怎样避免下一次重复同一个错误？ |
 | [引导注入](./guidance-thinking) | 用户中途补充要求时，怎样不丢进度？ |
 | [运行日志](./logging-thinking) | 出问题后，怎样还原 Agent 做过什么？ |
 | [日志原则](./logging) | 记事实不记猜测，日志怎么分层、脱敏、限量？ |
+| [Log-First 架构](./log-first-thinking) | 日志为什么是运行时本身，而不只是排障用的旁路记录？ |
 
 ## 工具和界面
 
