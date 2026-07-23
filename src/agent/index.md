@@ -27,6 +27,7 @@ Agent 不是“一问一答”。它更像一个小型执行团队：
 | [失败教训](./lessons-thinking) | 怎样避免下一次重复同一个错误？ |
 | [引导注入](./guidance-thinking) | 用户中途补充要求时，怎样不丢进度？ |
 | [运行日志](./logging-thinking) | 出问题后，怎样还原 Agent 做过什么？ |
+| [日志原则](./logging) | 记事实不记猜测，日志怎么分层、脱敏、限量？ |
 
 ## 工具和界面
 
@@ -50,6 +51,7 @@ Agent 不是“一问一答”。它更像一个小型执行团队：
 | [项目状态](./project-thinking) | Agent 工作时需要知道哪些环境事实？ |
 | [会话](./session-thinking) | 为什么会话切换要先快后全？ |
 | [缓存](./cache) | 哪些结果能复用，哪些结果不能缓存？ |
+| [模型前缀缓存](./prefix-cache-thinking) | KV 缓存在 provider，Agent 怎么去命中它？ |
 | [Token](./token-thinking) | 用量为什么要复用同一份状态？ |
 | [输入框](./input-thinking) | 怎样让用户更容易给 Agent 下清楚的指令？ |
 | [悬浮面板](./floating-panel-thinking) | Git 和后台命令状态为什么要单独展示？ |
